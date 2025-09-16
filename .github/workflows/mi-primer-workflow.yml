@@ -18,7 +18,7 @@ jobs:
   Mi-segundo-job:
     needs: Mi-primer-job
     name: Mi segundo job
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
     steps:
     - name: Imprimir
       id: imprimir
